@@ -9,11 +9,20 @@
         }
 
         div#board {
-            position: center;
-            width: 1008px;
-            height: 660px;
+            position: fixed;
+            top:0;
+            left : 0 ;
+            width: 100%;
+            height: auto;
+            min-height: 100%;
+            min-width: 1024px;
+
             margin: auto;
-            background: url( "/assets/images/board.jpg" ) no-repeat;
+            background: url( "/assets/images/board.jpg" ) no-repeat center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
     </style>
 </head>
